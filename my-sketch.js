@@ -2,9 +2,10 @@ const canvasSketch = require('canvas-sketch');
 
 // Sketch parameters
 const settings = {
-  dimensions: 'A3',
+  dimensions: 'A4',
   pixelsPerInch: 300,
-  units: 'mm'
+  units: 'mm', 
+  encoding: 'image/jpeg'
 };
 
 // Artwork function
